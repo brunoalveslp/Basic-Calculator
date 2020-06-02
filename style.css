@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    background-color: black;
+    background-image: linear-gradient(to top, rgba(8, 8, 8, 0.1), rgba(58, 5, 252, 0.4), rgba(255, 255, 255, 0), rgba(24, 23, 23, 0.4));
+}
+
+#calculadora {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    width: 400px;
+    height: 575px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid rgba(185, 185, 185, 0.555);
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    height: 90px;
+    border-width: 1px;
+    border-color: rgb(39, 38, 38);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(63, 62, 62);
+}
+
+button:active {
+    font-size: 27px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#igual {
+    position: relative;
+    top: -90px;
+    height: 180px;
+}
+
+#igual:hover {
+    background-color: rgba(0, 255, 34, 0.3);
+    transition: 300ms;
+}
+
+.ll{
+    display: flex;
+    position: relative;
+}
+
+#result {
+    height: 120px;
+    color: white;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #ccc;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 40px;
+}
+
+#result {
+    border: 1px solid rgba(207, 202, 202, 0.404);
+    background-color: rgba(49, 48, 48, 0.342);
+}
+
+/*www.facebook.com/bruno.alves.snow*/
